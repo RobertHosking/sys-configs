@@ -1,0 +1,18 @@
+Host v
+	HostName 162.243.229.192
+	User root
+	Port 22
+Host p
+	HostName dev.shopfinejewelry.com
+	User rhosking
+	Port 22
+Host s
+	HostName shopfinejewelry.com
+	User shopfine
+	Port 22
+
+Host R
+  Port 11387
+  HostName 162.243.229.192
+  User robert
+ 

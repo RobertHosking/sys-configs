@@ -1,0 +1,6 @@
+#!/bin/bash
+blog-render
+git add _posts
+git add img/*
+git commit -m 'new post'
+git push

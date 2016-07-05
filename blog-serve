@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /media/robert/Storage/Projects/RobHossBoss.github.io
+jekyll serve
