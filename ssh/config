@@ -15,4 +15,8 @@ Host R
   Port 11387
   HostName 162.243.229.192
   User robert
+Host C
+  Port 12531
+  HostName sushituesday.club
+  User root
  
