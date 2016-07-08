@@ -1,5 +1,0 @@
-#!/bin/bash
-cd /media/robert/Storage/Projects/RobHossBoss.github.io
-sudo python resizer.py
-python thumbnailer.py
-python articleParser.py
