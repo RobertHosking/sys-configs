@@ -1,0 +1,28 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "The most powerful photo editor on Chrome. Only 3MB and works offline.",
+   "icons": {
+      "128": "128.png",
+      "512": "512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqC235hFaEn0aBW+2rblczcrNZKvoUhwHhInsQgWhrpKGWsXPf4kRiVKKsBs7rmEoQT3vFI8EPBEkxJJEygVjvmht4JpPKQFokmVyZN+5rb9tA+u1O+7LB5vR9k8Y7Pqc+uU89ANMBjEDXz2kdYKPey2KJQfm2TjnVmSh1SHhL4WQQhdUqWLCOh+RflO5hEXRQ0AyLjksYhiFvgyxNtIfVwdjHAduqPDHAmhih4HLc/DLxIs4KzkdcShQHFkBvaF0flsm2eDK4BkXDM5QSftkMjBpnRPjb0pwNwp3xtmP8i2rFaYSueo3soeG8LkgqDlY8BZUvMhjP7apHLrstBDd/QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "36.0",
+   "name": "Polarr Photo Editor 3",
+   "offline_enabled": true,
+   "permissions": [ "https://v3.polarr.co/", "https://photoeditor.polarr.co/", "https://www.polarr.co/", "https://www.google-analytics.com/", "fileSystem", {
+      "fileSystem": [ "write", "retainEntries", "directory" ]
+   }, "notifications", "unlimitedStorage", "storage", "system.display", "system.memory", "system.storage", "system.cpu", "app.window.fullscreen" ],
+   "requirements": {
+      "3D": {
+         "features": [ "webgl" ]
+      }
+   },
+   "short_name": "Polarr",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.1"
+}

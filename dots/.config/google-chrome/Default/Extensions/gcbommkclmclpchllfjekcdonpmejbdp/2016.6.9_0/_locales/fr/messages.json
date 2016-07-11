@@ -1,0 +1,155 @@
+{
+   "about_add_new_rule": {
+      "message": "Ajouter une nouvelle règle"
+   },
+   "about_and": {
+      "message": ", et"
+   },
+   "about_created_by": {
+      "message": "Créé par"
+   },
+   "about_donate_eff": {
+      "message": "Faire un Don à EFF"
+   },
+   "about_donate_tor": {
+      "message": "Faire un Don à Tor"
+   },
+   "about_ext_description": {
+      "message": "Chiffrez le Web ! Utilisez automatiquement HTTPS avec de nombreux sites."
+   },
+   "about_ext_name": {
+      "message": "HTTPS Everywhere"
+   },
+   "about_librarians": {
+      "message": "Bibliothécaires de règles"
+   },
+   "about_many_contributors": {
+      "message": "De nombreux, nombreux contributeurs y compris"
+   },
+   "about_noscript": {
+      "message": "Aussi les portions de HTTPS Everywhere sont basés sur le code de NoScript par Giorgio Maone et autres. Nous sommes reconnaissants pour leur excellent travail ! "
+   },
+   "about_or": {
+      "message": "ou"
+   },
+   "about_thanks": {
+      "message": "Merci à"
+   },
+   "about_title": {
+      "message": "À propos de HTTPS Everywhere"
+   },
+   "about_tor_lang_code": {
+      "message": "en"
+   },
+   "about_version": {
+      "message": "Version"
+   },
+   "chrome_add_new_rule": {
+      "message": "Ajouter une nouvelle règle pour ce site"
+   },
+   "chrome_add_rule": {
+      "message": "Ajouter une règle pour ce site"
+   },
+   "chrome_always_https_for_host": {
+      "message": "Toujours utiliser https pour ce serveur"
+   },
+   "chrome_experimental_rules": {
+      "message": "Règles expérimentales"
+   },
+   "chrome_experimental_rules_description": {
+      "message": "Peut causer des alertes ou des ruptures. Désactivé par défaut."
+   },
+   "chrome_hide_advanced": {
+      "message": "Cacher l'onglet avancé"
+   },
+   "chrome_host": {
+      "message": "Serveur :"
+   },
+   "chrome_redirect_to": {
+      "message": "Rediriger vers"
+   },
+   "chrome_regex": {
+      "message": "Expression régulière concordante"
+   },
+   "chrome_rule_name": {
+      "message": "Nom de la règle"
+   },
+   "chrome_show_advanced": {
+      "message": "Montrer l'onglet avancé"
+   },
+   "chrome_stable_rules": {
+      "message": "Règles permanentes"
+   },
+   "chrome_stable_rules_description": {
+      "message": "Forcer le chiffrement des connexions pour les sites internet suivant:"
+   },
+   "chrome_status_cancel_button": {
+      "message": "Annuler"
+   },
+   "menu_about": {
+      "message": "À propos de HTTPS Everywhere"
+   },
+   "menu_blockHttpRequests": {
+      "message": "Bloquer toutes les requêtes HTTP"
+   },
+   "menu_donate_eff_imperative": {
+      "message": "Faites un don à EFF"
+   },
+   "menu_globalDisable": {
+      "message": "Désactiver HTTPS Everywhere"
+   },
+   "menu_globalEnable": {
+      "message": "Activer HTTPS Everywhere"
+   },
+   "menu_observatory": {
+      "message": "Préférences de l'Observatoire SSL "
+   },
+   "menu_showCounter": {
+      "message": "Afficher le compteur"
+   },
+   "menu_viewAllRules": {
+      "message": "Voir toutes les règles"
+   },
+   "prefs_disable_all": {
+      "message": "Tout désactiver"
+   },
+   "prefs_enable_all": {
+      "message": "Tout activer"
+   },
+   "prefs_enabled": {
+      "message": "Activé"
+   },
+   "prefs_here_link": {
+      "message": "ici"
+   },
+   "prefs_list_caption": {
+      "message": "Quelles règles de redirection HTTPS devraient s'appliquer ?"
+   },
+   "prefs_notes": {
+      "message": "Notes"
+   },
+   "prefs_reset_default": {
+      "message": "Revenir aux paramètres par défaut"
+   },
+   "prefs_reset_defaults": {
+      "message": "Revenir aux paramètres par défaut"
+   },
+   "prefs_ruleset_howto": {
+      "message": "Vous pouvez apprendre à rédiger vos propres règles de redirection (pour la prise en charge d'autres sites Internet)"
+   },
+   "prefs_search": {
+      "message": "Recherche"
+   },
+   "prefs_site": {
+      "message": "Site"
+   },
+   "prefs_title": {
+      "message": "Préférences de HTTPS Everywhere"
+   },
+   "prefs_toggle": {
+      "message": "Retour"
+   },
+   "prefs_view_xml_source": {
+      "message": "Voir le code source XML"
+   }
+}

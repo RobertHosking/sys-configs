@@ -1,0 +1,73 @@
+{
+   "checksum": "acddf17343e065ad70abfbda0d6de4d8",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13111612439602094",
+            "id": "6",
+            "name": "",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://hootsuite.com/dashboard#/publisher"
+         }, {
+            "date_added": "13111272541007507",
+            "id": "7",
+            "name": "Find",
+            "sync_transaction_version": "7",
+            "type": "url",
+            "url": "https://app.blogmutt.com/writers/home"
+         }, {
+            "date_added": "13111370688711624",
+            "id": "8",
+            "name": "Blog",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://docs.google.com/document/d/1TjPSbLTB_f12nwP50A33t9MUsiVHzFuo07V9wjkiB48/edit"
+         }, {
+            "date_added": "13110409918086585",
+            "id": "9",
+            "name": "Check",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://app.grammarly.com/"
+         }, {
+            "date_added": "13112140837620234",
+            "id": "13",
+            "name": "Clarify",
+            "sync_transaction_version": "5",
+            "type": "url",
+            "url": "http://www.orwellapp.com/welcome_chrome.html"
+         }, {
+            "date_added": "13111186384875164",
+            "id": "10",
+            "name": "Post",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/RobHossBoss/RobHossBoss.github.io/tree/master/_posts"
+         } ],
+         "date_added": "13112043306738121",
+         "date_modified": "13112140849012433",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13112043306739108",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "7",
+      "synced": {
+         "children": [  ],
+         "date_added": "13112043306739128",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

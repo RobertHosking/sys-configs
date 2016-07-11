@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Polarr Photo Editor</title>
+
+  <style>
+    html {
+      background: rgb(30,30,30);
+    }
+    #mobile_warning {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 999999999 !important;
+      background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+      line-height: 2.0;
+      font-size: 15px;
+      box-sizing: border-box;
+      color: white;
+      text-align: center;
+      padding: 40px 20px 300px 20px;
+      font-weight: 300;
+    }
+    #mobile_warning img{
+      display: inline-block;
+      width: 200px;
+      text-align: center;
+    }
+    #splash, #support {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgb(30,30,30);
+      opacity: 1;
+      transition: all 0.3s ease;
+      z-index: 99999998;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      -webkit-justify-content: center;
+      -webkit-flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    #support {
+      display: none;
+      z-index: 99999999;
+      padding: 80px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+
+    #support button {
+      margin-top: 20px;
+      padding: 0 12px;
+    }
+
+    #splash-logo {
+      transition: 2.5s ease;
+      -webkit-filter: saturate(0);
+      filter: saturate(0);
+    }
+
+    #splash-logo-img {
+      opacity: 0;
+      transition: 0.3s ease;
+    }
+
+    #splash-progress-bar {
+      width: 320px;
+      height: 2px;
+      margin-top: 50px;
+      border-radius: 4px;
+      background-color: rgba(255,255,255,0.1);
+    }
+
+    #splash-progress {
+      height: 100%;
+      width: 0;
+      background-color: white;
+      border-radius: 4px;
+      transition: 0.3s ease-out;
+    }
+
+    #splash-action-clear {
+      margin-top: 32px;
+      display: none;
+      font-weight: 300;
+    }
+
+    #splash a {
+      opacity: 1;
+      text-decoration: underline;
+    }
+
+    img {
+      border-style: none;
+    }
+
+    .content-wrapper {
+      height: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="support"></div>
+
+  <div id="splash">
+    <div id="splash-logo">
+      <img id="splash-logo-img" width="320" />
+    </div>
+    <div id="splash-progress-bar">
+      <div id="splash-progress"></div>
+    </div>
+    <div id="splash-action-clear">Stuck? <a href="#">Clear Cache and Reload</a></div>
+  </div>
+  <script src="js/google-analytics-bundle-polarr-mod.js"></script>
+  <script id="script" src="js/splash.js" data-version="3.1.0" data-env="production" data-build="chrome"></script>
+
+  <div id="wrapper"></div>
+</body>
+</html>

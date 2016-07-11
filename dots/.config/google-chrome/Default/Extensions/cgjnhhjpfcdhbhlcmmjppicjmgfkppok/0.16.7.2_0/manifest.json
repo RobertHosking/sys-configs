@@ -1,0 +1,32 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "js/saveHelper.js" ],
+      "matches": [ "http://instagram.com/*", "https://instagram.com/*", "http://*.instagram.com/*", "https://*.instagram.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com/ https://www.google-analytics.com https://dl.dropbox.com/ https://dl.dropboxusercontent.com/ https://connect.facebook.net/ https://m.facebook.com/ https://web.facebook.com/ https://www.facebook.com/ https://apis.google.com/; object-src 'self'",
+   "description": "Download Facebook, Instagram, Pinterest, Twitter, Ask.fm, Weibo Album.",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDyGJQZTWp5huFowNL7Y3MQJTxSHtVDl31k/oY1xrugZUkKFeg6pNXfIan19SoZ5gOmeQPtBP7WI+fMMI5CFHi4EccIPW5JU6au1F9+N1ItCZNQ54f5z2UCRtpATEPocDhcvUWT7xHPhjFKX+3iB79pO/pQz3JtKrk+TczVD4Mo2QIDAQAB",
+   "manifest_version": 2,
+   "name": "DownAlbum",
+   "optional_permissions": [ "contextMenus" ],
+   "page_action": {
+      "default_icon": {
+         "19": "img/icon19.png",
+         "38": "img/icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "DownAlbum"
+   },
+   "permissions": [ "\u003Call_urls>", "tabs", "unlimitedStorage", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.16.7.2"
+}
