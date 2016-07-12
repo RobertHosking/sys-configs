@@ -1,4 +1,7 @@
 call plug#begin()
+Plug 'mhinz/vim-startify'
+
+Plug 'mhinz/vim-startify'
 
 Plug 'scrooloose/nerdtree'
 
@@ -6,9 +9,13 @@ Plug 'nathanaelkane/vim-indent-guides'
 
 Plug 'raimondi/delimitmate'
 
+Plug 'kristijanhusak/vim-hybrid-material'
+
 Plug 'tomasr/molokai'
 
 Plug 'vim-scripts/SearchComplete'
+
+Plug 'roman/golden-ratio'
 
 call plug#end()
 
@@ -16,10 +23,13 @@ set number
 
 set t_Co=256
 
-colorscheme molokai
+"colorscheme molokai
+colorscheme hybrid_reverse
 
 " Set Molokia Theme
 let g:molokai_original = 1
+let g:airline_theme = "hybrid"
+let g:enable_bold_font = 1
 
 " Set up indent Guides
 set ts=4 sw=4 et
