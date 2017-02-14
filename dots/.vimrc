@@ -1,3 +1,4 @@
+:nnoremap <C-a> :NERDTreeToggle<CR>          
 call plug#begin()
 Plug 'mhinz/vim-startify'
 
