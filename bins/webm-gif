@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in *.webm; do
+    avconv -i "$i" -pix_fmt rgb24 "${i%.*}.gif"
+done
+

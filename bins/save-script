@@ -1,0 +1,2 @@
+#!/bin/bash
+scp $1 robert@sushituesday.club:/var/www/sushituesday.club/public_html/share/scripts 

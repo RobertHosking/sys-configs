@@ -1,0 +1,4 @@
+#!/bin/bash
+
+avconv -i "$1" -acodec copy -vcodec copy -ss $2 -t $3 "$4"
+

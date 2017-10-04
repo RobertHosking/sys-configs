@@ -1,0 +1,7 @@
+#!/bin/bash
+for((i=29;i<=59;i++)); do
+echo "Converting" $i
+    cd Vol\ $i
+convert * ../Adventure\ Time\ Comic\ -\ Issue\ $i.pdf
+cd ../
+done

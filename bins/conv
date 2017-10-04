@@ -1,0 +1,12 @@
+#!/bin/bash
+FILES=/var/www/sushituesday.club/public_html/box/books/animation/*.jpg
+for f in $FILES
+do
+  if [ ${#f} -ge 140 ]; then
+    convert $f ${f: -7:-4}.pdf
+elif [ ${f: -6:-5} == "0" ]; then
+    convert $f ${f: -5:-4}.pdf
+else
+   convert $f ${f: -6:-4}.pdf 
+  fi
+done

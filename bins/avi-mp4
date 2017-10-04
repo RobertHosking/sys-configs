@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in *.avi; do
+avconv -i "$i" -c:v libx264 -c:a copy "${i%.*}.mp4"
+done
+

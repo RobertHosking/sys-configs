@@ -1,0 +1,7 @@
+#!/bin/bash
+for i in *.mkv; do
+avconv -i "$i" -c:v copy -c:a libmp3lame -q:a 2 "${i%.*}.mp4"
+
+
+done
+

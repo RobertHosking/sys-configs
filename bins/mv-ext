@@ -1,0 +1,7 @@
+#!/bin/bash
+for file in *.$1
+do 
+    filename=$(basename "$file")
+    filename="${filename%.*}"
+    mv "$file" "${filename}.$2"
+done

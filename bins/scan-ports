@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in $(seq 0 $1); do
+
+echo "scanning 10.$i.*.* range"
+nmap -p $2 10.$i.0-255.0-255 --open >> ./ip.txt
+
+done

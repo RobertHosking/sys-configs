@@ -1,0 +1,6 @@
+#!/bin/bash
+for f in *.mkv
+do
+    sudo ffmpeg -i $f -codec copy ${f::-4}.mp4
+done
+

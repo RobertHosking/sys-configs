@@ -1,0 +1,6 @@
+#!/bin/bash
+for ((i=1;i<=30;i++)); do
+cd Vol\ $i
+wget -nd -H -p -A jpg,jpeg,png,gif -e robots=off http://www.readcomics.tv/adventure-time/chapter-$i/full
+cd ../
+done

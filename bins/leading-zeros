@@ -1,0 +1,9 @@
+#!/bin/bash
+for((i=1;i<=59;i++)); do
+cd Vol\ $i
+for a in [0001-0009].jpg; do
+mv $a `printf %02d.%s ${a%.*} ${a##*.}`
+done
+cd ../
+
+done

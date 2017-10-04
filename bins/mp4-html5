@@ -1,0 +1,7 @@
+#!/bin/bash
+for i in *.mp4; do
+avconv -i "$i" -vcodec mpeg4 -acodec aac -strict experimental "${i%.*}-h.mp4"
+
+
+done
+

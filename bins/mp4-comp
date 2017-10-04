@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in *.mp4; do
+    avconv -i "$i" -vcodec libx264 -strict experimental -crf 24 ${i%.*}-c.mp4
+done
+

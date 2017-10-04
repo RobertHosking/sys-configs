@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in {1..313}; do
+    var=$var$i".pdf "
+echo $var
+done
+pdfunite $var output.pdf
